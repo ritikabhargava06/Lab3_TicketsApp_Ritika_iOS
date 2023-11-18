@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6518D8822AC67D530013A43E /* PurchaseHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6518D8812AC67D530013A43E /* PurchaseHistory.m */; };
+		6518D8852AC682140013A43E /* ManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6518D8842AC682140013A43E /* ManagerViewController.m */; };
+		655123842AC5BF0400E15882 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 655123832AC5BF0400E15882 /* AppDelegate.m */; };
+		655123872AC5BF0400E15882 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 655123862AC5BF0400E15882 /* SceneDelegate.m */; };
+		6551238A2AC5BF0400E15882 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655123892AC5BF0400E15882 /* ViewController.m */; };
+		6551238D2AC5BF0400E15882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6551238B2AC5BF0400E15882 /* Main.storyboard */; };
+		6551238F2AC5BF0500E15882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6551238E2AC5BF0500E15882 /* Assets.xcassets */; };
+		655123922AC5BF0500E15882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655123902AC5BF0500E15882 /* LaunchScreen.storyboard */; };
+		655123952AC5BF0500E15882 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 655123942AC5BF0500E15882 /* main.m */; };
+		6551239E2AC5C85900E15882 /* Tickets.m in Sources */ = {isa = PBXBuildFile; fileRef = 6551239D2AC5C85900E15882 /* Tickets.m */; };
+		655123A12AC5CF7000E15882 /* TicketsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 655123A02AC5CF7000E15882 /* TicketsStore.m */; };
+		659093F92AC711CB009BEDC8 /* ResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659093F82AC711CB009BEDC8 /* ResetViewController.m */; };
+		659093FC2AC712B5009BEDC8 /* HistoryViewContollerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659093FB2AC712B5009BEDC8 /* HistoryViewContollerTableViewController.m */; };
+		659093FF2AC75051009BEDC8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659093FE2AC75051009BEDC8 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6518D8802AC67D530013A43E /* PurchaseHistory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PurchaseHistory.h; sourceTree = "<group>"; };
+		6518D8812AC67D530013A43E /* PurchaseHistory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PurchaseHistory.m; sourceTree = "<group>"; };
+		6518D8832AC682140013A43E /* ManagerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagerViewController.h; sourceTree = "<group>"; };
+		6518D8842AC682140013A43E /* ManagerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagerViewController.m; sourceTree = "<group>"; };
+		6551237F2AC5BF0400E15882 /* Lab3_TicketsApp_Ritika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab3_TicketsApp_Ritika.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		655123822AC5BF0400E15882 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		655123832AC5BF0400E15882 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		655123852AC5BF0400E15882 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		655123862AC5BF0400E15882 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		655123882AC5BF0400E15882 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		655123892AC5BF0400E15882 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6551238C2AC5BF0400E15882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6551238E2AC5BF0500E15882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		655123912AC5BF0500E15882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		655123932AC5BF0500E15882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		655123942AC5BF0500E15882 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6551239C2AC5C85900E15882 /* Tickets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tickets.h; sourceTree = "<group>"; };
+		6551239D2AC5C85900E15882 /* Tickets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tickets.m; sourceTree = "<group>"; };
+		6551239F2AC5CF7000E15882 /* TicketsStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicketsStore.h; sourceTree = "<group>"; };
+		655123A02AC5CF7000E15882 /* TicketsStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketsStore.m; sourceTree = "<group>"; };
+		659093F72AC711CB009BEDC8 /* ResetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResetViewController.h; sourceTree = "<group>"; };
+		659093F82AC711CB009BEDC8 /* ResetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResetViewController.m; sourceTree = "<group>"; };
+		659093FA2AC712B5009BEDC8 /* HistoryViewContollerTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryViewContollerTableViewController.h; sourceTree = "<group>"; };
+		659093FB2AC712B5009BEDC8 /* HistoryViewContollerTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryViewContollerTableViewController.m; sourceTree = "<group>"; };
+		659093FD2AC75051009BEDC8 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		659093FE2AC75051009BEDC8 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6551237C2AC5BF0400E15882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		655123762AC5BF0400E15882 = {
+			isa = PBXGroup;
+			children = (
+				6551239B2AC5C82E00E15882 /* Model */,
+				655123812AC5BF0400E15882 /* Lab3_TicketsApp_Ritika */,
+				655123802AC5BF0400E15882 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		655123802AC5BF0400E15882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6551237F2AC5BF0400E15882 /* Lab3_TicketsApp_Ritika.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		655123812AC5BF0400E15882 /* Lab3_TicketsApp_Ritika */ = {
+			isa = PBXGroup;
+			children = (
+				655123822AC5BF0400E15882 /* AppDelegate.h */,
+				655123832AC5BF0400E15882 /* AppDelegate.m */,
+				655123852AC5BF0400E15882 /* SceneDelegate.h */,
+				655123862AC5BF0400E15882 /* SceneDelegate.m */,
+				655123882AC5BF0400E15882 /* ViewController.h */,
+				655123892AC5BF0400E15882 /* ViewController.m */,
+				6551238B2AC5BF0400E15882 /* Main.storyboard */,
+				6551238E2AC5BF0500E15882 /* Assets.xcassets */,
+				655123902AC5BF0500E15882 /* LaunchScreen.storyboard */,
+				655123932AC5BF0500E15882 /* Info.plist */,
+				655123942AC5BF0500E15882 /* main.m */,
+				6518D8832AC682140013A43E /* ManagerViewController.h */,
+				6518D8842AC682140013A43E /* ManagerViewController.m */,
+				659093F72AC711CB009BEDC8 /* ResetViewController.h */,
+				659093F82AC711CB009BEDC8 /* ResetViewController.m */,
+				659093FA2AC712B5009BEDC8 /* HistoryViewContollerTableViewController.h */,
+				659093FB2AC712B5009BEDC8 /* HistoryViewContollerTableViewController.m */,
+				659093FD2AC75051009BEDC8 /* DetailViewController.h */,
+				659093FE2AC75051009BEDC8 /* DetailViewController.m */,
+			);
+			path = Lab3_TicketsApp_Ritika;
+			sourceTree = "<group>";
+		};
+		6551239B2AC5C82E00E15882 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6551239C2AC5C85900E15882 /* Tickets.h */,
+				6551239D2AC5C85900E15882 /* Tickets.m */,
+				6551239F2AC5CF7000E15882 /* TicketsStore.h */,
+				655123A02AC5CF7000E15882 /* TicketsStore.m */,
+				6518D8802AC67D530013A43E /* PurchaseHistory.h */,
+				6518D8812AC67D530013A43E /* PurchaseHistory.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6551237E2AC5BF0400E15882 /* Lab3_TicketsApp_Ritika */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655123982AC5BF0500E15882 /* Build configuration list for PBXNativeTarget "Lab3_TicketsApp_Ritika" */;
+			buildPhases = (
+				6551237B2AC5BF0400E15882 /* Sources */,
+				6551237C2AC5BF0400E15882 /* Frameworks */,
+				6551237D2AC5BF0400E15882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab3_TicketsApp_Ritika;
+			productName = Lab3_TicketsApp_Ritika;
+			productReference = 6551237F2AC5BF0400E15882 /* Lab3_TicketsApp_Ritika.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		655123772AC5BF0400E15882 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6551237E2AC5BF0400E15882 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 6551237A2AC5BF0400E15882 /* Build configuration list for PBXProject "Lab3_TicketsApp_Ritika" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 655123762AC5BF0400E15882;
+			productRefGroup = 655123802AC5BF0400E15882 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6551237E2AC5BF0400E15882 /* Lab3_TicketsApp_Ritika */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6551237D2AC5BF0400E15882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655123922AC5BF0500E15882 /* LaunchScreen.storyboard in Resources */,
+				6551238F2AC5BF0500E15882 /* Assets.xcassets in Resources */,
+				6551238D2AC5BF0400E15882 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6551237B2AC5BF0400E15882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6551238A2AC5BF0400E15882 /* ViewController.m in Sources */,
+				655123A12AC5CF7000E15882 /* TicketsStore.m in Sources */,
+				6551239E2AC5C85900E15882 /* Tickets.m in Sources */,
+				655123842AC5BF0400E15882 /* AppDelegate.m in Sources */,
+				659093FC2AC712B5009BEDC8 /* HistoryViewContollerTableViewController.m in Sources */,
+				6518D8852AC682140013A43E /* ManagerViewController.m in Sources */,
+				659093F92AC711CB009BEDC8 /* ResetViewController.m in Sources */,
+				659093FF2AC75051009BEDC8 /* DetailViewController.m in Sources */,
+				655123952AC5BF0500E15882 /* main.m in Sources */,
+				6518D8822AC67D530013A43E /* PurchaseHistory.m in Sources */,
+				655123872AC5BF0400E15882 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6551238B2AC5BF0400E15882 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6551238C2AC5BF0400E15882 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		655123902AC5BF0500E15882 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				655123912AC5BF0500E15882 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		655123962AC5BF0500E15882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		655123972AC5BF0500E15882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		655123992AC5BF0500E15882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lab3_TicketsApp_Ritika/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.senecacollege.project.Lab3-TicketsApp-Ritika";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6551239A2AC5BF0500E15882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lab3_TicketsApp_Ritika/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.senecacollege.project.Lab3-TicketsApp-Ritika";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6551237A2AC5BF0400E15882 /* Build configuration list for PBXProject "Lab3_TicketsApp_Ritika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655123962AC5BF0500E15882 /* Debug */,
+				655123972AC5BF0500E15882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655123982AC5BF0500E15882 /* Build configuration list for PBXNativeTarget "Lab3_TicketsApp_Ritika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655123992AC5BF0500E15882 /* Debug */,
+				6551239A2AC5BF0500E15882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 655123772AC5BF0400E15882 /* Project object */;
+}
